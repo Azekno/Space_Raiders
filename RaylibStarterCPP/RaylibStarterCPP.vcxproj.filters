@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{4301092c-c174-448a-a8c8-ec669a6f929b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjectHeaders">
+      <UniqueIdentifier>{14cb13ce-5a76-4c68-9f13-295ec9ea6b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjectHeaders\Asteroids">
+      <UniqueIdentifier>{e3f11d38-645e-48a8-902a-c5eed4110a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjectHeaders\Spaceship children">
+      <UniqueIdentifier>{70159dfb-8f1d-41a9-871d-30af5ffb9d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Files">
+      <UniqueIdentifier>{3e796768-0351-4345-a1c2-d9b0697cece0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Files">
+      <UniqueIdentifier>{067d9645-d09c-4d5f-bde7-97cf889d16c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Asteroids">
+      <UniqueIdentifier>{75c921e5-6897-4b5a-b4f2-05cd43c6c1ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Spaceship children">
+      <UniqueIdentifier>{0ea66ccd-2cb4-43e3-8c11-cfb8bc53a664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI">
+      <UniqueIdentifier>{eca0b9f3-dfcd-4a04-9dcf-c8049cf0213e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI\Behaviours">
+      <UniqueIdentifier>{147bba30-b678-4b7d-8db9-f6e2f887595d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI">
+      <UniqueIdentifier>{b0815ec3-6bda-428f-94db-9ffa70e39dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\Behaviour">
+      <UniqueIdentifier>{2150f8df-ae30-46a1-a5ee-202b89d66006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI\Spaceship">
+      <UniqueIdentifier>{8740d76b-7d85-40f5-a603-a95b3b9122a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\Spaceship">
+      <UniqueIdentifier>{71f10b7d-412a-4933-8b9e-d5f12569cdd8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spaceship.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>Source Files\Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gatherer.cpp">
+      <Filter>Source Files\GameObjects\Spaceship children</Filter>
+    </ClCompile>
+    <ClCompile Include="Fighter.cpp">
+      <Filter>Source Files\GameObjects\Spaceship children</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroid.cpp">
+      <Filter>Source Files\GameObjects\Asteroids</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceAsteroid.cpp">
+      <Filter>Source Files\GameObjects\Asteroids</Filter>
+    </ClCompile>
+    <ClCompile Include="Transport.cpp">
+      <Filter>Source Files\GameObjects\Spaceship children</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardBehaviour.cpp">
+      <Filter>Source Files\AI\Behaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>Source Files\Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PirateRaider.cpp">
+      <Filter>Source Files\GameObjects\Spaceship children</Filter>
+    </ClCompile>
+    <ClCompile Include="FighterAI.cpp">
+      <Filter>Source Files\AI\Spaceship</Filter>
+    </ClCompile>
+    <ClCompile Include="GathererAI.cpp">
+      <Filter>Source Files\AI\Spaceship</Filter>
+    </ClCompile>
+    <ClCompile Include="Spacestation.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spaceship.h">
+      <Filter>Header Files\GameObjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroid.h">
+      <Filter>Header Files\GameObjectHeaders\Asteroids</Filter>
+    </ClInclude>
+    <ClInclude Include="Gatherer.h">
+      <Filter>Header Files\GameObjectHeaders\Spaceship children</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter.h">
+      <Filter>Header Files\GameObjectHeaders\Spaceship children</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceAsteroid.h">
+      <Filter>Header Files\GameObjectHeaders\Asteroids</Filter>
+    </ClInclude>
+    <ClInclude Include="Transport.h">
+      <Filter>Header Files\GameObjectHeaders\Spaceship children</Filter>
+    </ClInclude>
+    <ClInclude Include="Spacestation.h">
+      <Filter>Header Files\GameObjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PirateRaider.h">
+      <Filter>Header Files\GameObjectHeaders\Spaceship children</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardBehaviour.h">
+      <Filter>Header Files\AI\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviour.h">
+      <Filter>Header Files\AI\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Edge.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FighterAI.h">
+      <Filter>Header Files\AI\Spaceship</Filter>
+    </ClInclude>
+    <ClInclude Include="GathererAI.h">
+      <Filter>Header Files\AI\Spaceship</Filter>
+    </ClInclude>
+    <ClInclude Include="TransportAI.h">
+      <Filter>Header Files\AI\Spaceship</Filter>
+    </ClInclude>
+    <ClInclude Include="AIManager.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="PirateRaiderAI.h">
+      <Filter>Header Files\AI\Spaceship</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\GameObjectHeaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
